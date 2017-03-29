@@ -28,7 +28,7 @@ a {
 	text-align: left;
 	color: #2a00ff;
 	width: 5.6em;
-	margin-left: 10%;
+	margin-left: 12%;
 	margin-top: 11%;
 }
 ul {
@@ -60,7 +60,8 @@ ul {
 #blurb {
 	font-size: 1.9em;
 	text-indent: 6%;
-	max-width: 400px;
+	width:40%;
+	min-width: 400px;
 	text-align: left;
 	color: #7054ff;
 	margin-top: auto;
