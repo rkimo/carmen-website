@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFDAFA;
+	font-family: fugue;
+	padding-top: 1%;
+	}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+@font-face {
+	font-family: 'fugue';
+	src: url('fonts/fugue_regular.otf'); 
+}
+#all {
+	max-width: 1142px;
+	text-align: center;
+	}
+#fixedelements {
+	}
+#content {
+	padding-bottom: 39%;
+	}
+#title {
+	font-size: 5em;
+	position: fixed;
+	margin-top: 1px;
+	margin-left: 17%;
+	color:#FF2F5D;
+	}
+.mainnav {
+	position: fixed;
+	font-size: 1.4em;
+	border-style: solid;
+	border-width: medium;
+	margin-left: 92px;
+	margin-top: 19%;
+	text-align: left;
+	color:#2a00ff;
+
+}
+ul {
+	margin-right: 0.4em;
+	margin-bottom: 0em;
+	margin-left: -1.5em;
+}
+#blurb {
+	font-size: 1.9em;
+	text-indent: 6%;
+	max-width: 400px;
+	text-align: left;
+	margin-left: 15%;
+	color:#7054ff;
+	
+}
+#carmenpic {
+	margin-right: -13%;
+	margin-top: 8%;
+}
+#footer {
+	text-align:center;
+	margin:auto;
+	color:#B6B6B6;
+	font-size:.9em;
+	}
