@@ -42,11 +42,12 @@ ul {
 	text-align: center;
 	width: 100%;
 	margin-left: -3%;
+	margin-top:2%
 	}
 #content {
 	width: 100%;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 12%;
 	padding-bottom: 49%;
 	}
 #carmenpic {
@@ -56,6 +57,7 @@ ul {
 	margin-right: -35%;
 	margin-left: auto;
 	margin-bottom: auto;
+	min-width:290px;
 }
 #blurb {
 	font-size: 1.9em;
