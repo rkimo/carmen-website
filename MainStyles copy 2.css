@@ -4,8 +4,7 @@ html {
 	}
 body, #fixed, #content {
 	width: 70%;
-	max-width: 1500px;
-	}
+	max-width:1500px;}
 body {
 	background-color: #FFDAFA;
 	font-family: fugue;
@@ -20,6 +19,7 @@ a {
 }
 #fixed {
 	position: fixed;
+	border-width: medium;border-style: solid;
 	}
 #mainnav {
 	font-size: 1.4em;
@@ -47,7 +47,6 @@ ul {
 	width: 100%;
 	text-align: center;
 	padding-top: 10%;
-	padding-bottom: 49%;
 	}
 #carmenpic {
 	width: 33%;
@@ -63,6 +62,7 @@ ul {
 	max-width: 400px;
 	text-align: left;
 	color: #7054ff;
+	background-color: lightblue;
 	margin-top: auto;
 	margin-right: 36%;
 	margin-left: auto;
