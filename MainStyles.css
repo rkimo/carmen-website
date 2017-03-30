@@ -49,7 +49,6 @@ ul {
 	text-align: center;
 	padding-top: 12%;
 	padding-bottom: 49%;
-	background-color:white;
 	}
 #carmenpic {
 	width: 33%;
@@ -72,10 +71,12 @@ ul {
 	margin-left: auto;
 	margin-bottom: auto;
 	}
-	
+	p {}
+#smallerblurb {
+	display:none;
+	}
 	@media (max-width: 1200px) and (min-width: 710px){
     body {
-        background-color: lightgreen;
     }
 	#blurb {
 	font-size: 1.9em;
@@ -89,10 +90,12 @@ ul {
 	margin-left: auto;
 	margin-bottom: auto;
 	}
+	#smallblurb {
+	display:none;
+	}
 }
-@media screen and (max-width:710px) and (min-width:320px){
+@media screen and (max-width : 710px ) and (min-width : 375px ){
     body {
-        background-color: purple;
     }
 	#blurb {
 	font-size: 1.9em;
@@ -110,23 +113,27 @@ ul {
 	width: 100%;
 	max-width: 1500px;
 	}
+	#smallerblurb {
+	display:none;
+	}
 }
 
-@media (max-width: 320px){
+@media screen and (min-width: 0px) and (max-width: 375px) {
 	#fixed {
 	position: relative;
 	}
 	#title {
-		font-size:3em;
+		font-size:4em;
 		}
 	#content {
 	width: 90%;
-	background-color:white;
+	text-align: center;
+	padding-top: 12%;
+	padding-bottom: 5%;
 	}
 	body, #fixed {
 	width: 100%;
-	max-width: 1500px;
-	background-color:yellow;
+	max-width: 500px;
 	}
 	#mainnav {
 	font-size: 1.2em;
@@ -144,6 +151,7 @@ ul {
 	margin-left: -1.7em;
 }
 html {
+	max-width:100%;
 	}
 a {
   color: inherit;
@@ -156,24 +164,30 @@ a {
 
 #carmenpic {
 	width: 33%;
-	max-width: 550px;
+	width:290px;
 	margin-top: auto;
 	margin-right: -35%;
 	margin-left: auto;
 	margin-bottom: auto;
-	min-width:290px;
 }
 #blurb {
-	font-size: 1.7em;
-	text-indent: 6%;
-	width: 10px;
+	display:none;
+	}
+	p {
+		}
+	#smallerblurb {
+		display:block;
+		width:90%;
+		font-size: 1.3em;
 	text-align: left;
 	color: #7054ff;
-	margin-top: 3%;
+	margin-top: 0%;
 	margin-right: 0;
-	margin-left: auto;
-	margin-bottom: auto;
-	}
+	margin-left: 0;
+	margin-bottom: 0;
+	position: relative;
+	float: none;
+	text-indent:6%;
+	padding-bottom:50%;
+		}
 }
-
-
