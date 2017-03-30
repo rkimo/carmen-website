@@ -49,6 +49,7 @@ ul {
 	text-align: center;
 	padding-top: 12%;
 	padding-bottom: 49%;
+	background-color:white;
 	}
 #carmenpic {
 	width: 33%;
@@ -62,7 +63,7 @@ ul {
 #blurb {
 	font-size: 1.9em;
 	text-indent: 6%;
-	width:40%;
+	width: 40%;
 	min-width: 400px;
 	text-align: left;
 	color: #7054ff;
@@ -71,3 +72,74 @@ ul {
 	margin-left: auto;
 	margin-bottom: auto;
 	}
+	
+	
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: lightgreen;
+    }
+	#blurb {
+	font-size: 1.9em;
+	text-indent: 6%;
+	width: 40%;
+	min-width: 400px;
+	text-align: left;
+	color: #7054ff;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	}
+}
+@media screen and (max-width: 710px) {
+    body {
+        background-color: purple;
+    }
+	#blurb {
+	font-size: 1.9em;
+	text-indent: 6%;
+	width: 40%;
+	min-width: 400px;
+	text-align: left;
+	color: #7054ff;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	}
+	body, #fixed, #content {
+	width: 100%;
+	max-width: 1500px;
+	}
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+	#blurb {
+	font-size: 1.9em;
+	text-indent: 6%;
+	width: 30%;
+	min-width: 400px;
+	text-align: left;
+	color: #7054ff;
+	margin-top: 3%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: auto;
+	}
+	body, #fixed, #content {
+	width: 100%;
+	max-width: 1500px;
+	}
+	#fixed {
+		position:relative;
+	}
+	#carmenpic {
+	width: 33%;
+	margin-top: auto;
+	margin-right: -35%;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+}
