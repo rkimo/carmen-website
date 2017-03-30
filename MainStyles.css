@@ -170,15 +170,10 @@ a {
 	text-align: left;
 	color: #7054ff;
 	margin-top: 3%;
-	margin-right: 36%;
+	margin-right: 0;
 	margin-left: auto;
 	margin-bottom: auto;
 	}
-#smaller {
-	font-size: 1.4em;
-	text-indent: 6%;
-	width: 98%;
-	text-align: left;
-	color: #7054ff;
 }
-}
+
+
