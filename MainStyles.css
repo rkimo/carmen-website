@@ -75,6 +75,26 @@ ul {
 #smallerblurb {
 	display:none;
 	}
+#pagecontents {
+	width: 59%;
+	max-width: 1100px;
+	text-align: right;
+	position: absolute;
+	padding-top: 1em;
+	margin-top: 14%;
+	margin-right: 0%;
+	margin-left: 32%;
+	margin-bottom: 0%;
+	}
+#text {
+	text-align: right;
+	color: #7054ff;
+	font-size: 1.8em;
+	}
+
+
+
+
 	@media (max-width: 1200px) and (min-width: 710px){
     body {
     }
@@ -115,6 +135,12 @@ ul {
 	}
 	#smallerblurb {
 	display:none;
+	}
+	#text {
+	text-align: right;
+	color: #7054ff;
+	font-size: 1.3em;
+	margin-top:3em;
 	}
 }
 
@@ -190,4 +216,19 @@ a {
 	text-indent:6%;
 	padding-bottom:50%;
 		}
+		#text {
+	text-align: right;
+	color: #7054ff;
+	font-size: 1.2em;
+	width: 84%;
+	}
+	#pagecontents {
+	width: 80%;
+	max-width:1100px;
+	text-align: right;
+	position: relative;
+	padding-top: 20%;
+	margin:auto;
+	display:inline-block;
+}
 }
