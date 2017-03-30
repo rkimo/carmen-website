@@ -237,11 +237,14 @@ a {
 	#pagecontents {
 	width: 80%;
 	max-width:1100px;
-	text-align: right;
+	text-align: center;
 	position: relative;
 	padding-top: 20%;
 	margin:auto;
 	display:inline-block;
 }
-}.paintings {
+#description {
+	margin-bottom:20%;
+	text-align:center;
+	background-color:red;}
 }
